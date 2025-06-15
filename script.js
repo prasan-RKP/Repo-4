@@ -5,8 +5,6 @@ const outputText = document.getElementById("counter");
 let counterVal = outputText.textContent;
 
 
-// 'func1' branch code starts here...
-
 incrementBtn.addEventListener("click",(e)=> {
   outputText.textContent = ++counterVal;
 })
