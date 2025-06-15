@@ -5,3 +5,6 @@ const outputText = document.getElementById("counter");
 let counterVal = outputText.textContent;
 
 
+incrementBtn.addEventListener("click",(e)=> {
+  outputText.textContent = ++counterVal;
+})
