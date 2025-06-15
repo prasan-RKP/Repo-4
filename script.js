@@ -9,7 +9,7 @@ let counterVal = outputText.textContent;
 decrementBtn.addEventListener("click",(e)=> {
   if(counterVal > 0){
     outputText.textContent = --counterVal;
-  }
+  }})
 
 incrementBtn.addEventListener("click",(e)=> {
   outputText.textContent = ++counterVal;
